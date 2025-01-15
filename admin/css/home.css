@@ -1,0 +1,306 @@
+/* trang chủ */
+.home .menu__thongso{
+    display: flex;
+}
+
+#thongso__1{
+    width: 230px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: #4a71f4;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#thongso__2{
+    width: 230px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: #e8b027;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#thongso__3{
+    width: 230px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: #f44c4c;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#thongso__4{
+    width: 230px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: #3e9736;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#thongso__1 img{
+    width: 25px;
+}
+#thongso__2 img{
+    width: 25px;
+}
+#thongso__3 img{
+    width: 25px;
+}
+#thongso__4 img{
+    width: 25px;
+}
+.thongso__name{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-top: 8px;
+}
+.thongso__number{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -13px;
+}
+
+.menu__thongso2{
+    display: flex;
+    padding-top: 20px;
+}
+#thongso__doctor {
+    width: 480px;
+    height: 210px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #f7f7f7;
+    padding: 15px; 
+    font-family: Arial, sans-serif;
+}
+
+#thongso__khach, #thongso__hoiphuc {
+    width: 230px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+#thongso__docer:hover, #thongso__khach:hover, #thongso__hoiphuc:hover {
+    border-color: #3b82f6; 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s ease; 
+}
+#thongso__title{
+    font-size: 18px;
+    color: black;
+}
+#thongso__doctor a{
+    display: flex;
+    float: right;
+    font-size: 13px;
+    margin-top: -40px;
+}
+#thongso__doctor img{
+    width: 20px;
+}
+#thongso__listbacsi{
+    width: 450px;
+    height: 140px;
+}
+#thongso__listbacsi img{
+    width: 100px;
+    height: 139px;
+    border-radius: 10px;
+}
+.chart-container {
+    width: 200px;
+    margin: auto;
+    position: relative;
+}
+#visitorsChart {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 100%;
+}
+.chart-hoiphuc {
+    width: 200px;
+    margin: auto;
+    position: relative;
+}
+#hoiphucChart {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 100%;
+}
+.menu__thongso3{
+    display: flex;
+    padding-top: 20px;
+}
+#thongso__benhnhan{
+    width: 480px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #f7f7f7;
+    padding: 15px; 
+    font-family: Arial, sans-serif;
+}
+#thongso__benhnhan img{
+    width: 20px;
+}
+#thongso__benhnhan a{
+    display: flex;
+    float: right;
+    font-size: 13px;
+    margin-top: -40px;
+}
+#thongso__tuvan{
+    width: 480px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #f7f7f7;
+    padding: 15px; 
+    font-family: Arial, sans-serif;
+}
+#thongso__tuvan img{
+    width: 20px;
+}
+#thongso__tuvan a{
+    display: flex;
+    float: right;
+    font-size: 13px;
+    margin-top: -40px;
+}
+.patients-container {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.patients-info {
+    flex: 1;
+    text-align: left;
+}
+
+.patients-info p {
+    font-size: 14px;
+    color: #9a9a9a;
+    margin: 0;
+}
+
+.patients-info h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.legend {
+    margin-top: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #9a9a9a;
+    margin-top: 5px;
+}
+
+.color-box {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.color-box.new {
+    background-color: #4bc0c0;
+}
+
+.color-box.recovered {
+    background-color: #36a2eb;
+}
+
+.color-box.treatment {
+    background-color: #ff6384;
+}
+
+.chart-container-pie {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+#bacsi__tuvan1{
+    width: 450px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+#bacsi__tuvan2{
+    width: 450px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+#bacsi__tuvan1 img{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+#bacsi__tuvan2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#ten__bacsi{
+    margin-left: 100px;
+    margin-top: -65px;
+    color:black;
+}
+#chuyenkhoa__bacsi{
+    margin-left: 100px;
+    margin-top: -18px;
+    font-size: 14px;
+    font-style: italic;
+}
+#giolamviec__bacsi{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 13px;
+    margin-top: -15px;
+    width: 140px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4a71f4;
+}
+
+#xem__bacsi {
+    background-color: #4a71f4; 
+    color: #f0f1f6; 
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 25px; 
+    cursor: pointer;
+    font-size: 14px;
+    width: 80px;
+    margin-left: 350px;
+    margin-top: -67px;
+    display: flex;
+}

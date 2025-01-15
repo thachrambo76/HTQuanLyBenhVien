@@ -1,0 +1,753 @@
+/* detail pay */
+.detailThanhToan h3{
+    text-align: center; 
+    color: #009CFF; 
+    padding: 10px;
+}
+.detailThanhToan .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+.detailThanhToan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.detailThanhToan table, th, td {
+    border: 1px solid #ddd;
+}
+.detailThanhToan th, td {
+    padding: 10px;
+    text-align: center;
+}
+.detailThanhToan th {
+    background-color: #4A63E7;
+    color: #fff;
+}
+
+.sumCost h5{
+    float: right;
+    padding: 20px;
+    margin-right: 45px;
+}
+
+.detailThanhToan .d-flex.justify-content-end {
+    margin-top: 90px; /* Tùy chỉnh khoảng cách trên nút */
+    margin-left: 150px;
+}
+/* Bác sĩ */
+/* Xem lịch hẹn */
+.xemLichHen h3{
+    text-align: center; 
+    color: #009CFF; 
+    padding: 10px;
+}
+
+.xemLichHen table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.xemLichHen table, th, td {
+    border: 1px solid #ddd;
+}
+.xemLichHen th, td {
+    padding: 10px;
+    text-align: center;
+}
+.xemLichHen th {
+    background-color: #4A63E7;
+    color: #fff;
+}
+.xemLichHen .action-btn {
+    background-color: #4A63E7;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+}
+.xemLichHen .action-btn:hover {
+    background-color: #3b51c8;
+}
+
+/* chi tiết xem lịch hẹn */
+.detailXemLichHenKham h3{
+    color: #009CFF; 
+}
+.detailXemLichHenKham .detailThongTin{
+    margin-left: 100px;
+}
+
+.detailXemLichHenKham .detailKhoaKham{
+    margin-right: 100px;
+}
+
+/* Trang xem bệnh nhân phụ trách */
+
+#title_header{
+    float: left;
+
+}
+strong{
+    font-size: 20px;
+}
+#form__search{
+    width: 270px;
+    padding: 5px;
+    height: 30px;
+    margin-left: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+#form__search::placeholder{
+    font-size: 15px;
+    padding: 5px;
+}
+#btn__search img{
+    width: 20px;
+}
+#btn__search{
+    border: 0;
+    background-color: transparent;
+    margin-top: -3px;
+}
+#table__danhsach{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+#table__danhsach .header{
+    background-color: #009cff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+#table__danhsach .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#table__danhsach button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#table__danhsach button>a{
+    color: #ffffff;
+}
+#table__danhsach button:hover {
+    background-color: #218838;
+}
+.col-stt{
+    width: 30px;
+}
+
+
+/* Trang xem chi tiết bệnh nhân */
+p>a{
+    color: black;
+    float: left;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+#thongtin__left{
+    margin-top: 20px;
+    width: 700px;
+    height: 500px;
+    margin-left: 20PX;
+}
+#thongtin__mabn{
+    display: flex;
+    float: left;
+    width: 250px;
+}
+#thongtin__hoten{
+    display: flex;
+    float: left;
+    margin-left: 150px;
+    width: 250px;
+}
+#thongtin__ngaysinh{
+    display: flex;
+    float: left;
+    width: 250px;
+}
+#thongtin__gioitinh{
+    display: flex;
+    float: left;
+    margin-left: 150px;
+    width: 250px;
+}
+#thongtin__diachi{
+    display: flex;
+    float: left;
+    width: 700px;
+}
+#thongtin__ngaykham{
+    display: flex;
+    float: left;
+    width: 250px;
+}
+#thongtin__tinhtrangbenh{
+    display: flex;
+    float: left;
+    width: 700px;
+}
+#thongtin__chandoan{
+    display: flex;
+    float: left;
+    width: 700px;
+}
+#thongtin__chandoan{
+    display: flex;
+    float: left;
+    width: 700px;
+}
+#thongtin__kehoachdieutri{
+    display: flex;
+    margin-left: 0px;
+    padding-top: 30px;
+    width: 700px;
+    height: auto;
+}
+#thongtin__lichsukhambenh{
+    display: flex;
+    padding-top: 20px;
+    width: 700px;
+    height: auto;
+}
+#thongtin__left span{
+    font-weight: bold;
+}
+#thongtin__right{
+    float: right;
+    margin-left: 100px;
+    margin-top: -500px;
+    width: 250px;
+    padding: 20px;
+    height: 250px;
+    border-left: 4px solid black;
+}
+#thongtin__right img{
+    width: 130px;
+}
+
+    /* Tạo phiếu khám */
+.taoPhieuKham .danhsach__thongtin span{
+    font-weight: bold;
+
+}
+.taoPhieuKham #title_taophieukham{
+    padding-bottom: 20px;
+}
+.taoPhieuKham #phieukham__mabn{
+    margin-left: 20px;
+    width: 400px;
+    display: block;
+}
+.taoPhieuKham #phieukham__mabn input{
+    width: 150px;
+    height: 25px;
+}
+.taoPhieuKham #phieukham__mabn input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+.taoPhieuKham #phieukham__hoten input{
+    width: 200px;
+    margin-left: 5px;
+    height: 25px;
+}
+.taoPhieuKham #phieukham__hoten input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+.taoPhieuKham #phieukham__ngaysinh input{
+    width: 140px;
+    margin-left: 5px;
+    height: 25px;
+}
+.taoPhieuKham #phieukham__gioitinh input{
+    margin-left: 10px;
+}
+.taoPhieuKham #phieukham__sodienthoai input{
+    width: 150px;
+    margin-left: 5px;
+    height: 25px;
+}
+.taoPhieuKham #phieukham__sodienthoai input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+.taoPhieuKham #phieukham__diachi textarea{
+    width: 250px;
+    margin-left: 5px;
+    height: 50px;
+}
+.taoPhieuKham #phieukham__diachi textarea::placeholder{
+    font-size: 14px;
+    font-style: italic;
+}
+.taoPhieuKham #phieukham__hoten{
+    display: flex;
+    width: 300px;
+    margin-top: -24px;
+    margin-left: 450px;
+}
+#phieukham__ngaysinh{
+    display: flex;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#phieukham__gioitinh{
+    display: flex;
+    width: 300px;
+    margin-top: -38px;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+#phieukham__sodienthoai{
+    display: flex;
+    width: 300px;
+    margin-left: 39px;
+    margin-top: -10px;
+    margin-top: 10px;
+}
+#phieukham__diachi{
+    display: flex;
+    width: 450px;
+    margin-top: -38px;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+#phieukham__tinhtrangbenh{
+    display: flex;
+    margin-left: 33px;
+    padding: 5px;
+    margin-top: 20px;
+}
+#phieukham__tinhtrangbenh textarea{
+    width: 600px; 
+    height: 60px;
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+    transition: border-color 0.3s; 
+    margin-left: 30px;
+}
+#phieukham__chandoan{
+    display: flex;
+    margin-left: 35px;
+    padding: 5px;
+    margin-top: 12px;
+}
+#phieukham__chandoan textarea{
+    width: 600px; 
+    height: 60px;
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+    transition: border-color 0.3s; 
+    margin-left: 65px;
+}
+#phieukham__kehoachdieutri{
+    display: flex;
+    margin-left: 35px;
+    padding: 5px;
+    margin-top: 12px;
+}
+#phieukham__kehoachdieutri textarea{
+    width: 600px; 
+    height: 60px;
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+    transition: border-color 0.3s; 
+    margin-left: 20px;
+}
+#phieukham__thuockedon{
+    display: flex;
+    margin-left: 35px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 12px;
+    height: auto;
+    
+}
+#phieukham__thuockedon textarea{
+    width: 600px; 
+    height: 60px;
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+    transition: border-color 0.3s; 
+    margin-left: 45px;
+}
+#phieukham__ghichu{
+    display: flex;
+    margin-left: 35px;
+    padding: 5px;
+    margin-top: 25px;
+}
+#phieukham__ghichu textarea{
+    width: 600px; 
+    height: 80px;
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa;
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+    transition: border-color 0.3s; 
+    margin-left: 90px;
+}
+.danhsach__thongtin textarea::placeholder{
+    padding: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+#btn__taophieukham {
+    background-color: #009cff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-top: 20px;
+}
+
+#btn__taophieukham:hover {
+    background-color: #008ae0; 
+
+}
+
+#btn__taophieukham:active {
+    transform: translateY(0);
+}
+
+/* Thu ngân */
+/* Thống kê doanh thu */
+
+.thongKeDoanhThu h4{
+    padding-bottom: 20px;
+}
+#title_header{
+    font-size: 15px;
+    float: left;
+}
+.thongKeDoanhThu  strong{
+    font-size: 20px;
+}
+.search__form{
+    display: flex;
+    float: right;
+}
+#form__search{
+    width: 270px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+}
+#form__search::placeholder{
+    font-size: 15px;
+    padding: 5px;
+    font-style: italic;
+}
+#btn__search img{
+    width: 20px;
+}
+#btn__search{
+    border: 0;
+    background-color: transparent;
+    margin-top: -3px;
+}
+#chonngay
+{
+    width: 100px;
+    height: 20px;
+}
+#table__danhsach {
+    margin-top: 50px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+#table__danhsach .header {
+    background-color: #009cff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+#table__danhsach .row {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#table__danhsach .col-4 {
+    flex: 1;
+    text-align: center;
+}
+
+#table__danhsach .col-sm-1 {
+    flex: 0.5;
+    text-align: center;
+}
+
+#table__danhsach .col-lg-2 {
+    flex: 1.5;
+    text-align: center;
+}
+
+/* Điều chỉnh kích thước và căn giữa cho cột STT */
+#table__danhsach .stt {
+    width: 50px;
+    text-align: center;
+}
+#title__tongtien{
+    width: 300px;
+    margin-top: -25px;
+    margin-left: 680px;
+    float: right;
+    display: flex;
+}
+#title__tongtien strong{
+    font-size: 18px;
+    
+}
+#title__tongtien p{
+    font-weight: 100;
+    font-size: 18px;
+    float: right;
+    
+}
+.btn__xuatbaocao{
+    float: left;
+    width: 120px;
+    font-size: 15px;
+    margin-top: -20px;
+}
+#phieukham__thuockedon button{
+    margin-left: 45px;
+}
+.search-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  #suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #suggestions li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  #suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  .modal__taodonthuoc{
+    text-align: center;
+    width: 500px;
+  }
+  .search-container{
+
+    width: 470px;
+  }
+.title__taodonthuoc{
+    font-size: 17px;
+    float: left;
+    color: #595858;
+}
+#search-input{
+    width: 270px;
+    height: 35px;
+    padding: 5px;
+    margin-left: -70px;
+}
+.taodonthuoc{
+    width: 470px;
+
+}
+
+.medicine-entry {
+    margin-bottom: 10px;
+    display: flex;
+}
+.suggestions {
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    background: #fff;
+    position: absolute;
+    width: calc(100% - 20px);
+    z-index: 1;
+}
+#medicine-list{
+    width: 600px;
+    height: auto;
+    margin-left:45px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    height: auto;
+}
+.suggestions li {
+    padding: 5px;
+    cursor: pointer;
+}
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+.medicine-entry p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.medicine-name{
+    width: 220px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.lieudung{
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.medicine-quantity{
+    height: 40px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.title__donthuoc{
+    width: 100%;
+}
+.title2__donthuoc{
+    width: 100%;
+}
+.modal-body{
+    width: 100%;
+}
+.medicine-entry{
+    width: 700px;
+}
+.suggestions {
+    width: 220px;
+    display: none; /* Ban đầu ẩn */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.suggestions li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #ddd;
+}
+.nut__themthuoc{
+    width: 280px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px dashed #009cff;
+    border-radius: 20px;
+}
+.nut__themthuoc i{
+    background-color: #008ae0;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#checkPatient{
+    width: 70px;
+    border: 1px solid black;
+    margin-left: 10px;
+    height: 25px;
+    font-size: 13px;
+}
+#checkResult{
+    margin: 0;
+    padding: 0;
+}
+.history-item{
+    margin-left: 10px;
+    display: flex;
+    width: 300px;
+}
