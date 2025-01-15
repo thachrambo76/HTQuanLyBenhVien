@@ -1,0 +1,503 @@
+@charset "UTF-8";
+@media (max-width: 1200px) {
+  .container {
+      font-size: 1em; /* Tăng/giảm kích thước chữ khi màn hình nhỏ hơn */
+  }
+}
+@media (max-width: 768px) {
+  .container {
+      font-size: 0.9em; /* Thay đổi thêm ở màn hình nhỏ hơn nữa */
+  }
+}
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+/* s */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+    background: #ffffff;
+    box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
+  }
+
+header{
+    position: fixed;          
+    top: 0;                   
+    left: 0;                  
+    width: 100%;              
+    z-index: 1000;            
+    background-color: white;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  .header__top{
+    height: 100;
+    background-color: #007da5;
+  }
+
+  .header__top a{
+   color: white;
+   text-decoration: none;
+  }
+
+  .header__top a:hover{
+    text-decoration: none;
+    color:#61bfeb; 
+   }
+.header__top{
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  border-bottom: 1px solid black;
+}
+.header__top ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.header__right {
+    padding: 30px 0 27px;
+}
+.header__right ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.header__menu {
+    text-align: center;
+  }
+
+  .header__menu ul li h5  {
+    color: #0088c6;
+  }
+.header__menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+.header__menu ul li a {
+    text-decoration: none;
+    color: #1a73e8; /* Màu chữ mặc định */
+    padding: 5px 5px;
+    display: block;
+    transition: all 0.3s ease; /* Hiệu ứng mượt */
+    border-radius: 5px;
+  }
+.header__menu ul li a:hover {
+    background-color: rgba(232, 232, 232, 0.886); /* Màu nền khi lăn chuột vào */
+  }
+
+  .header__menu ul li:hover .dropdown {
+    top: 27px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .header__menu ul li .dropdown {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 250px;
+    background: #61bfeb;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -ms-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  .header__menu ul li .dropdown li {
+    display: block;
+  }
+  .header__menu ul li .dropdown li a {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .header__menu ul li .dropdown li a:after {
+    display: none;
+  }
+
+.section__banner{
+  margin-top: 130px;
+}
+#banner__carousel{
+  padding: 30px;
+  height: auto;
+}
+
+
+  .about__us{
+
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.about__us h3{
+  color:#0d6efd;
+}
+
+
+.descrice p{
+  margin-left: 50px;
+  text-align: center;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+}
+.descrice img{
+  margin-left: 50px;
+  width: 500px;
+  padding: 30px;
+}
+
+.specialty a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.specialty h5{
+  margin-top: 10px;
+}
+
+.more button{
+  display: flex; 
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.section__bacsi{
+  margin-top: 20px;
+  background-color: #cccbcb23;
+  padding: 100px;
+}
+.mota__titleBacSi{
+  padding-bottom: 20px;
+  font-size: 5mm;
+}
+.card.doctor-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.card.doctor-card img {
+  width: 100%;          
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004080;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #004080;
+  border-color: #004080;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #003366;
+  border-color: #003366;
+}
+/* tin tuc */
+.section__tintuc .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.section__tintuc .card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.section__tintuc.card-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.section__tintuc .text-primary {
+  color: #007bff !important;
+}
+
+.section__tintuc.text-danger {
+  color: #dc3545 !important;
+}
+
+.section__tintuc.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+/* footer */
+.footer {
+  margin-top: 20px;
+  padding-top: 55px;
+  background-color:  #007da5;
+}
+.footer p,h4,hr{
+  color: white;
+}
+.footer a{
+ text-decoration: none;
+ color: white;
+}
+.footer a:hover{
+  text-decoration: none;
+  color:#61bfeb; 
+ }
+.footer ul li{
+  padding-top: 10px;
+  width: 100px;
+  list-style: none;
+  text-align: center;
+ }
+
+.footer__system h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ .footer__system ul li{
+  font-family: "Montserrat", sans-serif;
+  margin-left: 135px;
+  display: flex;
+
+
+}
+ .footer__copyright__text {
+  border-top: 1px solid #e1e1e1;
+  padding: 10px 0 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+ 
+/* chuyên khoa */
+.chuyenkhoa {
+  width: 100%;
+  margin-top: 130px;
+}
+
+.chuyenkhoa .breadcrumb__links{
+  padding-top: 20px;
+}
+.chuyenkhoa span{
+  color: #0088c6;
+}
+
+.chuyenkhoa a{
+  text-decoration: none;
+  color: black;
+}
+
+.chuyenkhoa .specialty-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: transform 0.2s;
+}
+
+.chuyenkhoa .specialty-box h5{
+    margin-top: 10px;
+}
+.chuyenkhoa .specialty-box:hover {
+  transform: scale(1.05);
+}
+
+.chuyenkhoa .custom-img {
+  width: 100%;
+  height: 200px;     
+  object-fit: cover;   
+  border-radius: 5px;   
+}
+
+
+
+.list__chuyenkhoa .specialty-box {
+  text-align: center;
+  width: 300px; /* Chiều rộng cố định cho mỗi box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.list__chuyenkhoa  .specialty-box img {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.list__chuyenkhoa  .cart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Khoảng cách giữa các box */
+}
+
+/* detail chuyên khoa */
+.detail__chuyenkhoa{
+  margin-top: 120px;
+}
+.detail__chuyenkhoa .breadcrumb__links{
+  padding-top: 20px;
+}
+.detail__chuyenkhoa span{
+  color: #0088c6;
+}
+
+.detail__chuyenkhoa a{
+  text-decoration: none;
+  color: black;
+}
+.detail__chuyenkhoa h4{
+  font-weight: bold;
+  color: #007da5;
+  padding-bottom: 10px;
+}
+.detail__chuyenkhoa .gioithieu{
+  padding: 50px;
+  background-color: rgba(207, 205, 205, 0.267);
+}
+
+.detail__chuyenkhoa .gioithieu p{
+  font-size: 18px;
+}
+.detail__chuyenkhoa .noidung__khoanhi p{
+  font-size: 18px;
+}
+.detail__chuyenkhoa .header-text {
+  font-size: 24px;
+  font-weight: bold;
+  color:#007da5;
+  text-align: center;
+  margin-top: 20px;
+}
+.detail__chuyenkhoa .content {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+.detail__chuyenkhoa .image-caption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+.detail__chuyenkhoa .image-container{
+  text-align: center;
+}
+.detail__chuyenkhoa .image-container img {
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.detail__chuyenkhoa input{
+    background-color: #007da5;
+    color: white;
+}
+.detail__chuyenkhoa .breadcrumb__links{
+  padding-top: 20px;
+}
+.detail__chuyenkhoa span{
+  color: #0088c6;
+}
+
